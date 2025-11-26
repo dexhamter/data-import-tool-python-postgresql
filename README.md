@@ -22,12 +22,6 @@ The final tool works beautifully as a standalone CLI script **or the foundation 
 
 ---
 
-## **🧱 Project Structure**
-
-`data-import-tool/ │ ├── import_data_pro.py      # Entry point: orchestration & CLI ├── utils.py                # Core logic: inference, validation, chunking, Excel handlers │ ├── logs/ │   └── import.log          # Runtime logs │ ├── sample_data/            # Test files for Part 3 │   ├── large_sales.csv │   ├── finance_report.xlsx │   └── messy_data.csv │ └── .env                    # DATABASE_URL (excluded via .gitignore)`
-
----
-
 ## **🛠 Installation**
 
 ### **1. Clone the repository**
